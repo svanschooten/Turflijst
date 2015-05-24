@@ -1,0 +1,35 @@
+.management-wrapper{
+	.management-login {
+		position: absolute;
+		top: 50px;
+		left: 50px;
+	}
+
+	.management-blackscreen {
+		position: absolute;
+		top: 50px;
+		left: 150px;
+	}
+
+	.element-blackscreen {
+		z-index: 999;
+		height: 100vh;
+		width: 100vw;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: black;
+	}
+
+	.element-blackscreen.hidden {
+		display: none;
+	}
+
+	.element-blackscreen.visible {
+		display: block;
+	}
+}
+
+.management-login-dialog.mui-dialog-window .mui-dialog-window-contents {
+		max-width: 350px;
+	}

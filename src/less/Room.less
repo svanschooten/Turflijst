@@ -1,0 +1,37 @@
+.room-wrapper {
+	background-color: white;
+	& > div {
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-family: Roboto, sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		vertical-align: middle;
+	}
+
+	.turfs-wrapper {
+		width: calc(~"100% - 16em");
+	}
+
+	&.odd {
+		background-color: rgba(33, 150, 243, 0.1);
+	}
+
+	&.selected {
+		background-color: darken(white, 10%);
+		&.odd {
+			background-color: darken(rgba(33, 150, 243, 0.1), 10%);
+		}
+	}
+
+	.room-number {
+		margin-left:3em;
+		width: 3em;
+	}
+
+	.occupant {
+		width: 10em;
+	}
+}

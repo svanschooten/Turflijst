@@ -1,0 +1,43 @@
+{
+	"name": "Naam",
+	"slogan": "Slogan",
+	"drinks": {
+		"drank": "kleur"
+	},
+	"date": "nu",
+	"administrator": {
+		"name": "iemand",
+		"email": "iemand@iets.nl",
+		"password": "veranderme"
+	},
+	"email": {
+		"user": "gmail adres",
+		"pass": "gmail wachtwoord"
+	},
+	"database-url": "",
+	"graphs": {
+		"bar-graph": {
+			"width": 1250,
+			"height": 850
+		},
+		"pie-graph": {
+			"width": 1250,
+			"height": 850,
+			"r": 100,
+			"outer-radius": 400
+		},
+		"scatter-graph": {
+			"width": 1100,
+			"height": 800,
+			"m_min": 4,
+			"m_max": 10
+		}
+	},
+	"rooms": {
+		"nr": {
+			"occupant": "bewoner",
+			"turfs": {
+				"drank": 0
+		
+	}
+}
